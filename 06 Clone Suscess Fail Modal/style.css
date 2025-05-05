@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #264653;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin: 3rem;
+    width: 15rem;
+    height: 4rem;
+    border-radius: 3rem;
+    border: none;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+.success-btn {
+    background-color: #2a9d8f;
+}
+
+.fail-btn {
+    background-color: #e76f51;
+}
+
+.btn:active{
+    transform: translateY(0.2rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.modal {
+    width: 25rem;
+    height: 30rem;
+    background-color: #eee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+}
+
+.modal-icon{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    top: -3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-icon i{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.fail-icon{
+    background-color: #e76f51;
+    box-shadow: 0 1rem 3rem rgba(249, 65, 68, 0.3);
+}
+
+.modal-top{
+    width:100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-top h1{
+    font-size: 2.5rem;
+    color: #264653;
+}
+
+.modal-bottop  {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 1rem 1rem; 
+}
+
+.modal-bottom-fail{
+    background-color: #e76f51;
+}
+
+.modal-btn{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
